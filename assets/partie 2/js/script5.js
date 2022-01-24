@@ -1,27 +1,30 @@
 // exercice 5 
 
-let day = 4;
+let day = 3;
 
-switch(day) {
-    case 1 :
+switch (day) {
+    case 1:
         alert('Lundi')
-    break;
-    case 2 :
+        break;
+    case 2:
         alert('Mardi')
-    break;
-    case 3 :
+        break;
+    case 3:
         alert('Mercredi')
-    break;
-    case 4 :
+        break;
+    case 4:
         alert('Jeudi')
-    break;
-    case 5 :
+        break;
+    case 5:
         alert('Vendredi')
-    break;
-    case 6 :
+        break;
+    case 6:
         alert('Samedi')
-    break;
-    case 7 :
+        break;
+    case 7:
         alert('Dimanche')
-    break;
+        break;
+    default : 
+        alert('au dessus de 7, ERRREUR!')
+
 }
